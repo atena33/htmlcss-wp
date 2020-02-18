@@ -64,7 +64,8 @@ header a {
   padding-right: 10px;
 }
 
-.interno {
+/* Tentativo di far apparire menu a tendina al passaggio del mouse */
+/* .interno { *
   list-style-position: inside;
   display: none;
 }
@@ -72,6 +73,7 @@ header a {
 .interno:hover {
   display: block;
 }
+*/
 
 /* Qui iniziano le regole del main con l'aside left */
 
@@ -85,17 +87,10 @@ main::after {
   clear: both;
 }
 
-footer {
-  /* inizio regole di debug */
-  height: 600px;
-  background-color: yellow;
-  /* fine regole di debug */
-}
 
 .left {
   float: left;
   width: 20%;
-
 }
 
 aside a {
@@ -105,7 +100,7 @@ aside a {
   padding-left: 20px;
 }
 
-#left1, #left2, #left3{
+#left1, #left2, #left3 {
   margin-bottom: 50px;
   padding: 30px;
   background-color: white;
@@ -195,9 +190,14 @@ h2 {
   padding-left: 20px;
 }
 
+/* Qui inizia il footer */
+
 #padre-div-footer {
-  height: 500px;
-  border-bottom: solid 2px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: white;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 #padre-div-footer::after {
@@ -206,41 +206,46 @@ h2 {
   clear: both;
 }
 
+footer li a {
+  text-decoration: none;
+  padding: 40px;
+  line-height: 40px;
+  color: lightgrey;
+}
+
+footer h4 {
+  padding: 30px;
+}
+footer li {
+  list-style-type: none;
+}
 #finale1 {
   width: 20%;
   float: left;
-  /* inizio regole di debug */
-  height: 500px;
-  background-color: pink;
-  /* fine regole di debug */
-  margin:0 5% 0 5px;
+
 }
 
 #finale2 {
   width: 20%;
   float:left;
-  /* inizio regole di debug */
-  height: 500px;
-  background-color: pink;
-  /* fine regole di debug */
-  margin:0 5% 0 5px;
 }
 
 #finale3 {
   width: 15%;
   float:left;
-  /* inizio regole di debug */
-  height: 500px;
-  background-color: pink;
-  /* fine regole di debug */
-  margin:0 5% 0 5px;
 }
 
 #finale4 {
   float:right;
-  width: 28%;
-  /* inizio regole di debug */
-  height: 500px;
-  background-color: pink;
-  /* fine regole di debug */
+  width: 26%;
+  line-height: 20px;
+}
+
+.piè {
+  height: 150px;
+  background-color: white;
+  margin: 0 5vw;
+  border-top: solid 1px;
+  border-color: lightgrey;
+
 }
