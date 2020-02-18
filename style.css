@@ -106,7 +106,6 @@ aside a {
 }
 
 #left1, #left2, #left3{
-  border: solid 1px;
   margin-bottom: 50px;
   padding: 30px;
   background-color: white;
@@ -131,36 +130,42 @@ aside a {
 .right {
   float: left;
   width: 30%;
-  /* inizio regole di debug */
-  height: 300px;
-  background-color: purple;
-  /* fine regole di debug */
 }
 
-/* #left1 {
-  /* inizio regole di debug */
-  height: 400px;
-  /* fine regole di debug */
-  border: solid 2px;
-  margin-bottom: 5px;
-} */
-
-
-
-
 #right1 {
-  /* inizio regole di debug */
-  height: 95px;
-  /* fine regole di debug */
-  border: solid 2px;
-  margin-bottom: 5px;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 50px;
+
+}
+
+#barra {
+  height: 30px;
+  border-radius: 5%;
+  width: 70%;
+}
+
+#bottone {
+  height: 30px;
+  width: 60px;
+  background-color: brown;
+  border-radius: 10%;
+
 }
 
 #right2 {
-  /* inizio regole di debug */
-  height: 200px;
-  /* fine regole di debug */
-  border:solid 2px;
+  background-color: white;
+  }
+
+#right2 li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+#personalizza-padding{
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 #padre-div-footer {
