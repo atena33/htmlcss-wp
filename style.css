@@ -95,11 +95,27 @@ footer {
 .left {
   float: left;
   width: 20%;
-  /* inizio le regole di debug */
-  background-color: red;
-  height: 800px;
-  /* fine regole di debug */
+
 }
+
+aside a {
+  text-decoration: none;
+  color: green;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+#left1, #left2, #left3{
+  border: solid 1px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: white;
+}
+
+.stile-lista {
+  list-style-type: none;
+}
+
 
 #centro {
   float: left;
@@ -111,6 +127,7 @@ footer {
   /* fine regole di debug */
 }
 
+/* Qui inizia la sezione di destra */
 .right {
   float: left;
   width: 30%;
@@ -120,28 +137,16 @@ footer {
   /* fine regole di debug */
 }
 
-#left1 {
+/* #left1 {
   /* inizio regole di debug */
   height: 400px;
   /* fine regole di debug */
   border: solid 2px;
   margin-bottom: 5px;
-}
+} */
 
-#left2 {
- /* inizio regoe di debug */
- height: 150px;
- /* fine regole di debug */
- border: solid 2px;
- margin-bottom: 5px;
-}
 
-#left3{
-  /* inizio regole di debug */
-  height: 240px;
-  /* fine regole di debug */
-    border: solid 2px;
-}
+
 
 #right1 {
   /* inizio regole di debug */
