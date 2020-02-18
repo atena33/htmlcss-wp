@@ -1,0 +1,209 @@
+/* Regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background.png);
+
+}
+/* Qui inizia lo stile dell'header */
+.testa {
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  max-width: 90vw;
+  height: 250px;
+  color: white;
+  text-align: center;
+  border: solid 10px white;
+  position: relative;
+  left: 5vw;
+  top: 20px;
+}
+
+#titoli-header {
+  position: relative;
+  top: 75px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+#sottotitolo {
+  font-family: serif;
+}
+
+/* Qui inizia lo stile della barra di navigazione */
+nav {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 10px;
+  width: 90vw;
+  margin-left: 5vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.stile-link {
+  position: relative;
+  left: 27vw;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.item-principale {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.interno {
+  list-style-position: inside;
+  display: none;
+}
+
+.interno:hover {
+  display: block;
+}
+
+/* Qui iniziano le regole del main con l'aside left */
+
+main {
+ margin: 5vw;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  /* inizio regole di debug */
+  height: 600px;
+  background-color: yellow;
+  /* fine regole di debug */
+}
+
+.left {
+  float: left;
+  width: 20%;
+  /* inizio le regole di debug */
+  background-color: red;
+  height: 800px;
+  /* fine regole di debug */
+}
+
+#centro {
+  float: left;
+  width: 45%;
+  margin: 0 2.5%;
+  /* inizio regole di debug */
+  height: 2000px;
+  background-color: grey;
+  /* fine regole di debug */
+}
+
+.right {
+  float: left;
+  width: 30%;
+  /* inizio regole di debug */
+  height: 300px;
+  background-color: purple;
+  /* fine regole di debug */
+}
+
+#left1 {
+  /* inizio regole di debug */
+  height: 400px;
+  /* fine regole di debug */
+  border: solid 2px;
+  margin-bottom: 5px;
+}
+
+#left2 {
+ /* inizio regoe di debug */
+ height: 150px;
+ /* fine regole di debug */
+ border: solid 2px;
+ margin-bottom: 5px;
+}
+
+#left3{
+  /* inizio regole di debug */
+  height: 240px;
+  /* fine regole di debug */
+    border: solid 2px;
+}
+
+#right1 {
+  /* inizio regole di debug */
+  height: 95px;
+  /* fine regole di debug */
+  border: solid 2px;
+  margin-bottom: 5px;
+}
+
+#right2 {
+  /* inizio regole di debug */
+  height: 200px;
+  /* fine regole di debug */
+  border:solid 2px;
+}
+
+#padre-div-footer {
+  height: 500px;
+  border-bottom: solid 2px;
+}
+
+#padre-div-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#finale1 {
+  width: 20%;
+  float: left;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+  margin:0 5% 0 5px;
+}
+
+#finale2 {
+  width: 20%;
+  float:left;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+  margin:0 5% 0 5px;
+}
+
+#finale3 {
+  width: 15%;
+  float:left;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+  margin:0 5% 0 5px;
+}
+
+#finale4 {
+  float:right;
+  width: 28%;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+}
